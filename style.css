@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    background-color: rgb(63, 63, 178);
+    color: whitesmoke;
+    font-family: 'Poppins',sans-serif,;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+
+}
+
+.header{
+    
+    color: white; 
+    overflow: hidden; 
+    cursor: default;
+    
+    
+
+}
+.logo {
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.navbar {
+    float: right; 
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.navbar a {
+    margin: 0 20px; 
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a.active {
+    font-weight: lighter;
+    
+}
+#purchase-btn{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(203, 87, 188);
+    font-weight: 600;
+    outline: none;
+    
+}
+#overview{
+    transform: translate(-50%, -50%);
+    
+    color: #8b8b8b;
+
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ #text {
+    margin-top: 100px;
+    align-items: center ;
+    margin-left: 80px;
+    font-size: 40px;
+    padding: 5px;
+    justify-content: center;
+}
+#para {
+    align-items: center;
+    margin-left: 80px;
+    justify-content: center;
+
+    font-size: 25px;
+    padding: 5px;
+}
+.button{
+    align-items: center;
+    margin-left: 80px;
+    border-radius: 15px ;
+    background-color: rgb(175, 54, 173);
+    margin-top: 20px;
+    padding: 10px 10px
+}
+
+.container {
+    background-color: #FFF;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 60px;
+margin-bottom: 50px;
+
+    column-gap: 30px;
+}
+.form{
+    height: 50%;
+    max-width: 350px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+    
+    
+}
+.form-content{
+    background-color: #FFF;
+}
+ .form .login{
+    
+    pointer-events: none;
+}
+ .sign-up{
+    background-color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+    background-color: #FFF;
+}
+.form .field{
+    
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: #FFF;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    
+    
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+    background-color: #FFF;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.field button{
+    color: #fff;
+    background-color: rgb(63, 63, 178);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.media-options{
+    background-color: #FFF;
+}
+.media-options > button  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+   padding: 12px;
+text-decoration: none;
+background-color: rgb(86, 160, 190);
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #FFF;
+    padding: 10px;
+}
+.form-link span,
+.form-link a
+ {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+background-color: #FFF;
+}
+.form-link a{
+    color: rgb(96, 195, 167);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.check-box{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FFF;
+    
+}
+ .check-box label{
+    background-color: #FFF;
+    color: #545659;
+    font-size: 13px;
+}
+
+.check-box {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.custom-checkbox-label {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+}
+
+
+.custom-checkbox-label::before {
+    content: "✔"; 
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; 
+    height: 20px; 
+    background-color: rgb(69, 185, 175); 
+    text-align: center;
+    line-height: 20px; /* Center the checkmark symbol vertically */
+    color: white; 
+    font-weight: bold; 
+}
+
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+} 
